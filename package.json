@@ -1,23 +1,15 @@
 {
-  "name": "todos",
-  "version": "1.0.0",
-  "description": "To do sample app",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "ToDo",
+  "version": "0.0.0",
+  "description": "Hello Exponent!",
+  "author": null,
+  "private": true,
+  "main": "main.js",
+  "exp": {
+    "sdkVersion": "5.0.0"
   },
-  "author": "Andrew Chaa",
-  "license": "ISC",
   "dependencies": {
-    "babel-eslint": "^6.0.4",
-    "eslint": "^2.11.1",
-    "eslint-config-airbnb": "^9.0.1",
-    "eslint-plugin-import": "^1.8.1",
-    "eslint-plugin-jsx-a11y": "^1.2.2",
-    "eslint-plugin-react": "^5.1.1",
-    "react": "^15.1.0",
-    "react-native": "^0.26.2",
-    "react-native-swipeout": "^2.0.12",
-    "redux": "^3.5.2"
+    "react": "^0.14.5",
+    "react-native": "github:exponentjs/react-native#sdk-5.0.0"
   }
 }
